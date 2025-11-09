@@ -2,8 +2,6 @@ CREATE DATABASE OnlineBookstore;
 
 USE OnlineBookstore;
 
-drop database OnlineBookstore;
-
 CREATE TABLE Books (
     Book_ID SERIAL PRIMARY KEY,
     Title VARCHAR(100) NOT NULL,
